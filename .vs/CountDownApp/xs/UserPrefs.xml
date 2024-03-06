@@ -1,28 +1,32 @@
 ﻿<Properties StartupConfiguration="{B41A1E64-15AE-49CA-AF10-19CD426BD27D}|Default">
   <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_5_-_api_33" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="CountDownApp/CountDownApp/MainPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CountDownApp/CountDownApp/Model/Event.cs">
     <Files>
-      <File FileName="CountDownApp/CountDownApp/MainPage.xaml.cs" Line="22" Column="1" />
-      <File FileName="CountDownApp/CountDownApp/MainPage.xaml" Line="14" Column="54" />
-      <File FileName="CountDownApp/CountDownApp/Model/Event.cs" Line="6" Column="29" />
-      <File FileName="CountDownApp/CountDownApp/ViewModel/CounterViewModel.cs" Line="10" Column="6" />
-      <File FileName="CountDownApp/CountDownApp/App.xaml.cs" Line="18" Column="1" />
-      <File FileName="CountDownApp/CountDownApp.Android/MainActivity.cs" Line="20" Column="1" />
+      <File FileName="CountDownApp/CountDownApp/MainPage.xaml.cs" Line="17" Column="10" />
+      <File FileName="CountDownApp/CountDownApp/MainPage.xaml" Line="14" Column="60" />
+      <File FileName="CountDownApp/CountDownApp/App.xaml" Line="17" Column="1" />
+      <File FileName="CountDownApp/CountDownApp/Model/Event.cs" Line="10" Column="1" />
+      <File FileName="CountDownApp/CountDownApp/ViewModel/CounterViewModel.cs" Line="24" Column="21" />
+      <File FileName="CountDownApp/CountDownApp.Android/MainActivity.cs" />
+      <File FileName="CountDownApp/CountDownApp.iOS/Info.plist" />
+      <File FileName="CountDownApp/CountDownApp.iOS/Main.cs" Line="1" Column="1" />
+      <File FileName="CountDownApp/CountDownApp.iOS/Entitlements.plist" />
+      <File FileName="CountDownApp/CountDownApp.iOS/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="CountDownApp/CountDownApp/CustomRenderer/CustomFrame.cs" Line="11" Column="10" />
+      <File FileName="CountDownApp/CountDownApp.Android/CustomRendererImplementation/CustomFrameRenderer.cs" Line="10" Column="55" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CountDownApp" expanded="True">
             <Node name="CountDownApp" expanded="True">
-              <Node name="Model" expanded="True" />
+              <Node name="CustomRenderer" expanded="True" />
+              <Node name="Model" expanded="True">
+                <Node name="Event.cs" selected="True" />
+              </Node>
               <Node name="ViewModel" expanded="True" />
               <Node name="App.xaml" expanded="True" />
-              <Node name="MainPage.xaml" expanded="True" selected="True" />
-            </Node>
-            <Node name="CountDownApp.Android" expanded="True">
-              <Node name="Resources" expanded="True">
-                <Node name="drawable" expanded="True" />
-              </Node>
+              <Node name="MainPage.xaml" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -33,7 +37,9 @@
     <String>CountDownApp/CountDownApp.iOS/CountDownApp.iOS.csproj</String>
   </DisabledProjects>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.CountDownApp.Android PreferredExecutionTarget="Android.pixel_5_-_api_33" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />

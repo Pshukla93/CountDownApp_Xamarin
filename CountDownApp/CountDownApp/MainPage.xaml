@@ -5,77 +5,87 @@
              x:Class="CountDownApp.MainPage">
 
     <StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand">
-        <Label Text="{StaticResource we_are_launching}" FontSize="17" TextColor="White" FontAttributes="Bold" HorizontalTextAlignment="Center" Opacity="0.9" Margin="20,200,80,0" HorizontalOptions="End" />
-        <Label Text="{StaticResource soon}" FontSize="17" TextColor="White" FontAttributes="Bold" Opacity="0.9" HorizontalTextAlignment="Center" Margin="0,-10,0,0" HorizontalOptions="CenterAndExpand" />
+        <Label Text="{StaticResource we_are_launching}" FontSize="20" TextColor="White" FontAttributes="Bold" HorizontalTextAlignment="Center" Opacity="0.9" Margin="20,150,20,0" HorizontalOptions="CenterAndExpand" />
+        
    
-        <StackLayout Orientation="Horizontal"  HorizontalOptions="CenterAndExpand" Margin="10,10,20,10" Spacing="10">
+        <Grid   HorizontalOptions="CenterAndExpand" Margin="10,40,20,10" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                 <ColumnDefinition Width="*"/>
+                 <ColumnDefinition Width="*"/>
+                 <ColumnDefinition Width="*"/>
+
+
+
+
+            </Grid.ColumnDefinitions>
 
         
-                  <StackLayout Orientation="Vertical">                   
-                <RelativeLayout>
-                    <StackLayout Spacing="0" Margin="0,68,0,0">
+                  <StackLayout Grid.Column="0"  Orientation="Vertical">                   
+                <Grid >
+                    <StackLayout Spacing="0" >
                     <customrenderer:CustomFrame CornerRadius="0,0,5,5" HeightRequest="15" WidthRequest="60" Padding="5" Margin="2,5,2,0" MinimumHeightRequest="10" BackgroundColor="{StaticResource timer_bg}"></customrenderer:CustomFrame>
                     <customrenderer:CustomFrame x:Name="framed" HeightRequest="15" CornerRadius="5,5,0,0"  WidthRequest="60" Padding="5" Margin="2,0,2,0" BackgroundColor="{StaticResource timer_bg}"> </customrenderer:CustomFrame>
                         </StackLayout>
-                    <StackLayout HorizontalOptions="CenterAndExpand">
+                    <StackLayout HorizontalOptions="Center">
 
-                        <Label Text="{Binding Days}" FontSize="30" Margin="20,76,0,0" FontAttributes="Bold" TextColor="{StaticResource timer_text}" HorizontalTextAlignment="Center" HorizontalOptions="CenterAndExpand"/>
+                        <Label Text="{Binding Days}" VerticalOptions="Center" VerticalTextAlignment="End" FontSize="30" Margin="0,8,0,0" FontAttributes="Bold" TextColor="{StaticResource timer_text}" HorizontalTextAlignment="Center" HorizontalOptions="CenterAndExpand"/>
                     </StackLayout>
                     
 
-                </RelativeLayout>
-                <Label Text="{StaticResource days}" FontSize="8" TextColor="White" Opacity="0.7" HorizontalOptions="CenterAndExpand" Margin="0,0,0,0"/>
+                </Grid>
+                <Label Text="{StaticResource days}" FontSize="8" TextColor="White" Opacity="0.7" HorizontalOptions="CenterAndExpand" />
                 </StackLayout>
-            <StackLayout Orientation="Vertical">  
-                <RelativeLayout>
-                    <StackLayout Spacing="0" Margin="0,68,0,0">
+            <StackLayout Grid.Column="1" Orientation="Vertical">  
+                <Grid>
+                    <StackLayout Spacing="0" >
                     <customrenderer:CustomFrame CornerRadius="0,0,5,5"  HeightRequest="15" WidthRequest="60" Padding="5" Margin="2,5,2,0" MinimumHeightRequest="10" BackgroundColor="{StaticResource timer_bg}"></customrenderer:CustomFrame>
                     <customrenderer:CustomFrame CornerRadius="5,5,0,0" x:Name="frameh" HeightRequest="15" WidthRequest="60" Padding="5" Margin="2,0,2,0" BackgroundColor="{StaticResource timer_bg}"> </customrenderer:CustomFrame>
                         </StackLayout>
                     <StackLayout HorizontalOptions="CenterAndExpand">
 
-                        <Label Text="{Binding Hours}" FontSize="30" Margin="20,76,0,0" FontAttributes="Bold" TextColor="{StaticResource timer_text}" HorizontalTextAlignment="Center" HorizontalOptions="CenterAndExpand"/>
+                        <Label Text="{Binding Hours}" FontSize="30" Margin="0,8,0,0" FontAttributes="Bold" TextColor="{StaticResource timer_text}" HorizontalTextAlignment="Center" HorizontalOptions="CenterAndExpand"/>
                     </StackLayout>
                     
 
-                </RelativeLayout>
-                <Label Text="{StaticResource hours}" FontSize="8" TextColor="White" Opacity="0.7" HorizontalOptions="CenterAndExpand" Margin="0,-5,0,0"/>
+                </Grid>
+                <Label Text="{StaticResource hours}" FontSize="8" TextColor="White" Opacity="0.7" HorizontalOptions="CenterAndExpand" />
                 </StackLayout>
-            <StackLayout Orientation="Vertical">  
+            <StackLayout Grid.Column="2" Orientation="Vertical">  
                
-                 <RelativeLayout>
-                    <StackLayout Spacing="0" Margin="0,68,0,0">
+                 <Grid>
+                    <StackLayout Spacing="0" >
                     <customrenderer:CustomFrame CornerRadius="0,0,5,5"  HeightRequest="15" WidthRequest="60" Padding="5" Margin="2,5,2,0" MinimumHeightRequest="10" BackgroundColor="{StaticResource timer_bg}"></customrenderer:CustomFrame>
                     <customrenderer:CustomFrame CornerRadius="5,5,0,0" x:Name="framem" HeightRequest="15" WidthRequest="60" Padding="5" Margin="2,0,2,0" BackgroundColor="{StaticResource timer_bg}"> </customrenderer:CustomFrame>
                         </StackLayout>
                     <StackLayout HorizontalOptions="CenterAndExpand">
 
-                        <Label Text="{Binding Minutes}" FontSize="30" Margin="20,76,0,0" FontAttributes="Bold" TextColor="{StaticResource timer_text}" HorizontalTextAlignment="Center" HorizontalOptions="CenterAndExpand"/>
+                        <Label Text="{Binding Minutes}" FontSize="30" Margin="0,8,0,0" FontAttributes="Bold" TextColor="{StaticResource timer_text}" HorizontalTextAlignment="Center" HorizontalOptions="CenterAndExpand"/>
                     </StackLayout>
                     
 
-                </RelativeLayout>
-                <Label Text="{StaticResource minutes}" FontSize="8" TextColor="White" Opacity="0.7" HorizontalOptions="CenterAndExpand" Margin="0,-5,0,0"/>
+                </Grid>
+                <Label Text="{StaticResource minutes}" FontSize="8" TextColor="White" Opacity="0.7" HorizontalOptions="CenterAndExpand" />
                 </StackLayout>
-            <StackLayout  Padding="0"  Orientation="Vertical" Spacing="0">  
-                <RelativeLayout >
-                    <StackLayout Spacing="0" Margin="0,68,0,0">
+            <StackLayout Grid.Column="3" HeightRequest="50" Padding="0"  Orientation="Vertical" Spacing="0">  
+                <Grid >
+                    <StackLayout Spacing="0" >
                     <customrenderer:CustomFrame CornerRadius="0,0,5,5"  HeightRequest="15" WidthRequest="60" Padding="5" Margin="2,5,2,0" MinimumHeightRequest="10" BackgroundColor="{StaticResource timer_bg}"></customrenderer:CustomFrame>
                     <customrenderer:CustomFrame CornerRadius="5,5,0,0" x:Name="frames" HeightRequest="15" WidthRequest="60" Padding="5" Margin="2,0,2,0" BackgroundColor="{StaticResource timer_bg}"> </customrenderer:CustomFrame>
                         </StackLayout>
                     <StackLayout HorizontalOptions="CenterAndExpand">
 
-                        <Label Text="{Binding Seconds}" FontSize="30" Margin="20,76,0,0" FontAttributes="Bold" TextColor="{StaticResource timer_text}" HorizontalTextAlignment="Center" HorizontalOptions="CenterAndExpand"/>
+                        <Label Text="{Binding Seconds}" FontSize="30" Margin="0,8,0,0" FontAttributes="Bold" TextColor="{StaticResource timer_text}" HorizontalTextAlignment="Center" HorizontalOptions="CenterAndExpand"/>
                     </StackLayout>
                     
 
-                </RelativeLayout>
-                 <Label Text="{StaticResource seconds}" FontSize="8" TextColor="White" Opacity="0.7" HorizontalOptions="CenterAndExpand" Margin="0,-15,0,0"/>
+                </Grid>
+                 <Label Text="{StaticResource seconds}" FontSize="8" Margin="0,8,0,0"  TextColor="White" Opacity="0.7" HorizontalOptions="CenterAndExpand" />
                                          
                  </StackLayout>
                                        
          
-            </StackLayout>
+            </Grid>
         </StackLayout>
     
 

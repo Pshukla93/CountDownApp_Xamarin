@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CountDownApp.App">
     <Application.Resources>
-        <x:String x:Key="we_are_launching">W E ' R E   L A U N C H I N G</x:String>
+        <x:String x:Key="we_are_launching">W E ' R E   L A U N C H I N G   &#10;S O O N</x:String>
         <x:String x:Key="soon">S O O N</x:String>
         <x:String x:Key="days">D A Y S</x:String>
         <x:String x:Key="hours">H O U R S</x:String>
