@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "zadmpvh9+JZXgpVC3iDpruxji10DqXlmzbEUECNTArD3QxuJ5nDKqthZODfpLNJPjTqrPQyiw5CAsmeurH686Q==",
+  "success": true,
+  "projectFilePath": "/Users/pradeepshukla/Projects/CountDownApp/CountDownApp/CountDownApp.iOS/CountDownApp.iOS.csproj",
+  "expectedPackageFiles": [
+    "/Users/pradeepshukla/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/pradeepshukla/.nuget/packages/xamarin.essentials/1.7.0/xamarin.essentials.1.7.0.nupkg.sha512",
+    "/Users/pradeepshukla/.nuget/packages/xamarin.forms/5.0.0.2196/xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

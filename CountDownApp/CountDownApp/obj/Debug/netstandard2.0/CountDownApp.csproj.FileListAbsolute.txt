@@ -1,0 +1,15 @@
+/Users/pradeepshukla/Projects/CountDownApp/CountDownApp/CountDownApp/bin/Debug/netstandard2.0/CountDownApp.deps.json
+/Users/pradeepshukla/Projects/CountDownApp/CountDownApp/CountDownApp/bin/Debug/netstandard2.0/CountDownApp.dll
+/Users/pradeepshukla/Projects/CountDownApp/CountDownApp/CountDownApp/bin/Debug/netstandard2.0/ref/CountDownApp.dll
+/Users/pradeepshukla/Projects/CountDownApp/CountDownApp/CountDownApp/bin/Debug/netstandard2.0/CountDownApp.pdb
+/Users/pradeepshukla/Projects/CountDownApp/CountDownApp/CountDownApp/obj/Debug/netstandard2.0/CountDownApp.csproj.AssemblyReference.cache
+/Users/pradeepshukla/Projects/CountDownApp/CountDownApp/CountDownApp/obj/Debug/netstandard2.0/CountDownApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/pradeepshukla/Projects/CountDownApp/CountDownApp/CountDownApp/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/pradeepshukla/Projects/CountDownApp/CountDownApp/CountDownApp/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/pradeepshukla/Projects/CountDownApp/CountDownApp/CountDownApp/obj/Debug/netstandard2.0/CountDownApp.AssemblyInfoInputs.cache
+/Users/pradeepshukla/Projects/CountDownApp/CountDownApp/CountDownApp/obj/Debug/netstandard2.0/CountDownApp.AssemblyInfo.cs
+/Users/pradeepshukla/Projects/CountDownApp/CountDownApp/CountDownApp/obj/Debug/netstandard2.0/CountDownApp.csproj.CoreCompileInputs.cache
+/Users/pradeepshukla/Projects/CountDownApp/CountDownApp/CountDownApp/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/pradeepshukla/Projects/CountDownApp/CountDownApp/CountDownApp/obj/Debug/netstandard2.0/CountDownApp.dll
+/Users/pradeepshukla/Projects/CountDownApp/CountDownApp/CountDownApp/obj/Debug/netstandard2.0/refint/CountDownApp.dll
+/Users/pradeepshukla/Projects/CountDownApp/CountDownApp/CountDownApp/obj/Debug/netstandard2.0/CountDownApp.pdb

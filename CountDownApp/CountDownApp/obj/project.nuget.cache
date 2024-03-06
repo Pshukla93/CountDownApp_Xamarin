@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "rGPnJooilPoumc09db9U8lE7Sv66qq+bjJqR/o41zU9cV6JX4IkGEhla20+T0eZM3u2Cf495mEvzAWprqSRhMA==",
+  "success": true,
+  "projectFilePath": "/Users/pradeepshukla/Projects/CountDownApp/CountDownApp/CountDownApp/CountDownApp.csproj",
+  "expectedPackageFiles": [
+    "/Users/pradeepshukla/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/pradeepshukla/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/Users/pradeepshukla/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/pradeepshukla/.nuget/packages/xamarin.essentials/1.7.0/xamarin.essentials.1.7.0.nupkg.sha512",
+    "/Users/pradeepshukla/.nuget/packages/xamarin.forms/5.0.0.2196/xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

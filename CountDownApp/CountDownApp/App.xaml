@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CountDownApp.App">
+    <Application.Resources>
+        <x:String x:Key="we_are_launching">W E ' R E   L A U N C H I N G</x:String>
+        <x:String x:Key="soon">S O O N</x:String>
+        <x:String x:Key="days">D A Y S</x:String>
+        <x:String x:Key="hours">H O U R S</x:String>
+        <x:String x:Key="minutes">M I N U T E S</x:String>
+        <x:String x:Key="seconds">S E C O N D S</x:String>
+        <Color x:Key="timer_bg">#35374f</Color>
+        <Color x:Key="timer_text">#b05477</Color>
+
+    </Application.Resources>
+</Application>
